@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+  
+}
+h1{
+    color: red;
+    text-align: center;
+    
+}
+.SUING{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    transition: .8s ease;
+}
+.SUING:hover{
+    background-color: aquamarine;
+}
+.SUING:hover a{
+    color: red;
+}
+p{
+    color: red;
+}
+a{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    padding-top: 42%;
+    color: aqua;
+}
+p:active{
+    color: aquamarine;
+}
+
